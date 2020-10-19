@@ -1,33 +1,7 @@
-
-#accueil {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 5px;
-    height: 100vh;
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.elt {
-    /* border: 1px solid #fff; */
-    width: 300px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-.button {
-    width: 200px;
-    height: 100px;
-    /* border: 1px solid #fff; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.button>a {
-    text-decoration: none;
-    color: #fff;
-}
